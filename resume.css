@@ -1,0 +1,38 @@
+h1 {
+	background-color: #FF7171;
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h4 {
+	display: block;
+	background-color: #33CCFF;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif; 
+	color: white;
+	padding: 10px;
+	font-size: 1.5em;
+}
+h5{
+	display: block;
+	background-color: #00B88A;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	padding: 10px;
+	font-size: 1.5em;
+	color:white;
+}
+ul.education{
+	list-style-type: circle;
+}
+
+ul.work {
+ 	list-style-type: circle;
+}
+p.italics{
+	font-style: italic;
+	text-decoration: none;
+}
+body{
+	background-color: orange;
+}
