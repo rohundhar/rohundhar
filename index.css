@@ -12,4 +12,9 @@ h3 {
 body{
 	background-color: #CCCCFF;
 }
+img{
+	width: 220px;
+	height: 171px;
+	display: block;
+}
 
