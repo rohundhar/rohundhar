@@ -22,3 +22,6 @@ body{
 .headerWrap{
 	font-size: 5em;
 }
+.headerContent > a {
+	color: white;
+}

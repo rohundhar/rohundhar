@@ -17,8 +17,32 @@ img{
 	text-align: center;
 }
 body{
-	background-color: #CCCCFF;
+	background-color: #fbf8e1;
+}
+
+#page-header{
+	font-family: "Optima", serif;
 }
 .headerWrap{
 	font-size: 1.7em;
+}
+.headerContent > a {
+	color:red;
+}
+
+.aboutWrapper{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#imagesWrapper{
+	float:left;
+	width: 300px;
+	height: 600px;
+}
+#imagesWrapper > img {
+	width: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
