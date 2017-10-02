@@ -1,11 +1,56 @@
+
+/* html{
+	background: url(../images/magicmountain.jpg) no-repeat center fixed;
+	filter:blur(5px);
+	-webkit-filter:blur(5px);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}  */
+.backgroundImage{
+	background: url(../images/magicmountain.jpg) no-repeat center fixed;
+	filter:blur(3px);
+	-webkit-filter:blur(3px);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} 
 h1{
 
 	text-align: center;
+	font-family: "Times new Roman", serif;
+	left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: white;
+    font-size: 4.5em;
 }
 h2{
+	
 	text-align: center;
-	display: block;
-	font-size: 1.5em;
+	font-family: "Times new Roman", serif;
+	left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -60px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    font-style: italic;
 }
 h3 {
 	text-align: center;
@@ -13,27 +58,26 @@ h3 {
 	color: #33CCFF;
 	font-size: 1.5em;
 }
-img{
-	text-align: center;
-}
-body{
-	background-color: #fbf8e1;
-}
-
 #page-header{
 	font-family: "Optima", serif;
 }
+
 .headerWrap{
 	font-size: 1.7em;
-}
-.headerContent > a {
-	color:red;
-}
+	font-family: "Times New Roman", serif;
+	margin-top: 50px;
+	color: black;
 
+}
+a{
+	color: black;
+}
+a:focus{
+	color:black;
+}
 .aboutWrapper{
 	width: 1100px;
 	margin-left: auto;
-	margin-right: auto;
 
 }
 #imagesWrapper{
@@ -46,3 +90,52 @@ body{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+#bio{
+	margin-top: 17px;
+	font-family: "fantasy", serif;
+	font-size: 1.1em;
+	color: white;
+}
+p{
+	color:white;
+}
+p:focus{
+	color:white;
+}
+.titleWrap{
+	margin-bottom: 10px;
+}
+
+.musicBanner{
+	background: url(../images/music2.gif);
+	background-repeat: repeat-x;
+	height:120px;
+}
+.bannergif{
+	height: 100%;
+	width: 100%;
+}
+.bannergifr{
+	height:100%;
+	width: 100%;
+}
+@media only screen and (max-width: 767px){
+	.bannergif{
+		height:100px;
+		width:700px;
+	}
+	.bannergifr{
+		height: 100px;
+		width: 700px;
+	}
+}
+
+.page-header img{
+	max-height: 120px;
+	max-width: 400px;
+}
+
+
+
+
