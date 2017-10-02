@@ -151,4 +151,6 @@ h4{
 	color: white;
 	margin-top: 100px;
 }
-
+h4:focus{
+	color: white;
+}
