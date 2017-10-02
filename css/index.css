@@ -137,6 +137,18 @@ p:focus{
 	max-width: 400px;
 }
 
-
-
+.resume{
+	width: 900px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+h4{
+	font-family: "Times new Roman", serif;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+}
 
